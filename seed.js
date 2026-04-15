@@ -624,63 +624,326 @@ const products = [
     rating: 4.2,
     review_count: 1180,
   },
+  {
+    name: "JBL Flip 6 Bluetooth Speaker",
+    description: "Portable waterproof speaker with powerful bass and up to 12 hours playback.",
+    price: 10999,
+    category: "Electronics",
+    stock: 25,
+    image_url: "https://images.unsplash.com/photo-1589003077984-894e133dabab?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1589003077984-894e133dabab?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      connectivity: "Bluetooth 5.1",
+      playback: "12 hours",
+      water_resistance: "IP67",
+      charging: "USB-C",
+      warranty: "1 year",
+    },
+    rating: 4.5,
+    review_count: 835,
+  },
+  {
+    name: "Instant Pot Multi Cooker 6L",
+    description: "7-in-1 smart cooker for pressure cooking, sauteing, steaming, and more.",
+    price: 12999,
+    category: "Appliances",
+    stock: 19,
+    image_url: "https://images.unsplash.com/photo-1585238342024-78d387f4a707?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1585238342024-78d387f4a707?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      capacity: "6 L",
+      presets: "14 smart programs",
+      safety: "10+ safety mechanisms",
+      pot_material: "Stainless steel",
+      warranty: "2 years",
+    },
+    rating: 4.4,
+    review_count: 562,
+  },
+  {
+    name: "Casio Analog Watch",
+    description: "Classic everyday analog watch with stainless steel strap and mineral glass.",
+    price: 3999,
+    category: "Fashion",
+    stock: 46,
+    image_url: "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1539874754764-5a96559165b0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      movement: "Quartz",
+      dial: "Analog",
+      strap: "Stainless steel",
+      water_resistance: "50 m",
+      warranty: "2 years",
+    },
+    rating: 4.2,
+    review_count: 1407,
+  },
+  {
+    name: "Premium Yoga Mat 6mm",
+    description: "Anti-slip yoga mat with high-density cushioning for workouts and meditation.",
+    price: 1499,
+    category: "Home",
+    stock: 58,
+    image_url: "https://images.unsplash.com/photo-1571019613540-996a387f0f2b?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1571019613540-996a387f0f2b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      thickness: "6 mm",
+      material: "TPE",
+      grip: "Anti-slip",
+      weight: "900 g",
+      ideal_for: "Yoga and pilates",
+    },
+    rating: 4.4,
+    review_count: 698,
+  },
+  {
+    name: "Trekking Shoes Waterproof",
+    description: "High-ankle waterproof trekking shoes with durable grip for rough terrain.",
+    price: 5299,
+    category: "Travel",
+    stock: 33,
+    image_url: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1520219306100-ec6d98536902?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1504765050519-5f16d74f33f7?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      material: "Synthetic leather",
+      grip: "Deep lug outsole",
+      waterproof: "Yes",
+      fit: "Regular",
+      warranty: "6 months",
+    },
+    rating: 4.3,
+    review_count: 511,
+  },
+  {
+    name: "Dark Roast Coffee Beans 1kg",
+    description: "Single-origin arabica coffee beans with rich aroma and bold dark-roast flavor.",
+    price: 1199,
+    category: "Grocery",
+    stock: 82,
+    image_url: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1459755486867-b55449bb39ff?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      type: "Arabica",
+      roast: "Dark",
+      weight: "1 kg",
+      grind: "Whole bean",
+      shelf_life: "12 months",
+    },
+    rating: 4.5,
+    review_count: 953,
+  },
+  {
+    name: "ASUS ROG 27-inch Gaming Monitor",
+    description: "27-inch QHD gaming monitor with 165Hz refresh rate and ultra-low response time.",
+    price: 26999,
+    category: "Electronics",
+    stock: 13,
+    image_url: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1593640408182-31c228c3f5c1?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      size: "27 inch",
+      resolution: "QHD 2560x1440",
+      refresh_rate: "165 Hz",
+      response_time: "1 ms",
+      warranty: "3 years",
+    },
+    rating: 4.6,
+    review_count: 409,
+  },
+  {
+    name: "Premium Suitcase Set (3 pcs)",
+    description: "Hard-shell luggage set with TSA locks and 360 spinner wheels for long trips.",
+    price: 12999,
+    category: "Travel",
+    stock: 21,
+    image_url: "https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      pieces: "3",
+      material: "Polycarbonate",
+      wheel_type: "360 spinner",
+      locks: "TSA",
+      warranty: "5 years",
+    },
+    rating: 4.4,
+    review_count: 621,
+  },
+  {
+    name: "Realme Pad 2",
+    description: "Entertainment-focused tablet with 2K display and large battery backup.",
+    price: 21999,
+    category: "Electronics",
+    stock: 24,
+    image_url: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1623126908029-58cb08a2b272?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      display: "11.5 inch 2K",
+      storage: "128 GB",
+      battery: "8360 mAh",
+      speaker: "Quad speakers",
+      warranty: "1 year",
+    },
+    rating: 4.3,
+    review_count: 784,
+  },
+  {
+    name: "Crockery Dinner Set 24 pcs",
+    description: "Elegant ceramic dinnerware set suitable for daily and special dining.",
+    price: 3299,
+    category: "Home",
+    stock: 40,
+    image_url: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1478144592103-25e218a04891?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1492780209445-b698d4e5b1c1?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      material: "Ceramic",
+      pieces: "24",
+      microwave_safe: "Yes",
+      dishwasher_safe: "Yes",
+      color: "Ivory",
+    },
+    rating: 4.2,
+    review_count: 562,
+  },
+  {
+    name: "Puma Sports Track Pants",
+    description: "Moisture-wicking track pants built for gym sessions and casual wear.",
+    price: 2199,
+    category: "Fashion",
+    stock: 52,
+    image_url: "https://images.unsplash.com/photo-1506629905607-c52b2af7d5a9?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1506629905607-c52b2af7d5a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      fit: "Regular",
+      fabric: "Polyester blend",
+      pockets: "2 side pockets",
+      stretch: "Yes",
+      ideal_for: "Men",
+    },
+    rating: 4.1,
+    review_count: 913,
+  },
+  {
+    name: "Travel Toiletry Organizer",
+    description: "Compact hanging toiletry organizer with multiple zip compartments.",
+    price: 899,
+    category: "Travel",
+    stock: 76,
+    image_url: "https://images.unsplash.com/photo-1627638912045-6c2d53639f7f?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1627638912045-6c2d53639f7f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1491637639811-60e2756cc1c7?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      material: "Water-resistant nylon",
+      compartments: "7",
+      hanging_hook: "Yes",
+      weight: "280 g",
+      closure: "Zip",
+    },
+    rating: 4.3,
+    review_count: 488,
+  },
+  {
+    name: "Almond Butter Crunchy 1kg",
+    description: "Protein-rich crunchy almond butter made from roasted premium almonds.",
+    price: 1249,
+    category: "Grocery",
+    stock: 88,
+    image_url: "https://images.unsplash.com/photo-1622484212850-eb596d769edc?auto=format&fit=crop&w=1200&q=80",
+    image_urls: [
+      "https://images.unsplash.com/photo-1622484212850-eb596d769edc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1603048297172-c92544798d5a?auto=format&fit=crop&w=1200&q=80",
+    ],
+    specifications: {
+      weight: "1 kg",
+      type: "Crunchy",
+      sugar: "No added sugar",
+      preservatives: "No",
+      shelf_life: "9 months",
+    },
+    rating: 4.4,
+    review_count: 677,
+  },
 ];
-
-const categoryImageBank = {
-  Mobiles: [
-    "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=1200&q=80",
-  ],
-  Electronics: [
-    "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=1200&q=80",
-  ],
-  Fashion: [
-    "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1200&q=80",
-  ],
-  Appliances: [
-    "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1595715101930-a3d7d34084a1?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1585155770447-2f66e2a397b5?auto=format&fit=crop&w=1200&q=80",
-  ],
-  Home: [
-    "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=1200&q=80",
-  ],
-  Travel: [
-    "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80",
-  ],
-  Grocery: [
-    "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?auto=format&fit=crop&w=1200&q=80",
-  ],
+const buildUniqueImageSet = (product, index) => {
+  const baseQuery = encodeURIComponent(`${product.category} ${product.name} ecommerce premium`);
+  return [
+    `https://source.unsplash.com/1200x900/?${baseQuery}&sig=${index * 3 + 1}`,
+    `https://source.unsplash.com/1200x900/?${baseQuery}&sig=${index * 3 + 2}`,
+    `https://source.unsplash.com/1200x900/?${baseQuery}&sig=${index * 3 + 3}`,
+  ];
 };
 
-const enrichedProducts = products.map((product, index) => {
-  const bank = categoryImageBank[product.category] || categoryImageBank.Electronics;
-  const start = index % bank.length;
-  const rotated = [...bank.slice(start), ...bank.slice(0, start)];
+const seededProducts = products.map((product, index) => {
+  const uniqueImages = buildUniqueImageSet(product, index);
   return {
     ...product,
-    image_url: rotated[0],
-    image_urls: rotated.slice(0, 3),
+    image_url: uniqueImages[0],
+    image_urls: uniqueImages,
   };
 });
+
+if (seededProducts.length !== 40) {
+  throw new Error(`Seed data must contain exactly 40 products. Found: ${seededProducts.length}`);
+}
+
+const validateNoRepeatedImages = () => {
+  const seen = new Set();
+  for (const product of seededProducts) {
+    for (const url of product.image_urls) {
+      if (seen.has(url)) {
+        throw new Error(`Duplicate image URL detected: ${url}`);
+      }
+      seen.add(url);
+    }
+  }
+};
 
 const seedDatabase = async () => {
   try {
@@ -762,6 +1025,8 @@ const seedDatabase = async () => {
       ["Default Shopper", "default@shopverse.local", passwordHash, salt]
     );
 
+    validateNoRepeatedImages();
+
     const insertProductQuery = `
       INSERT INTO products
       (name, description, price, category, stock, image_url, image_urls, specifications, rating, review_count)
@@ -769,7 +1034,7 @@ const seedDatabase = async () => {
       ($1, $2, $3, $4, $5, $6, $7::jsonb, $8::jsonb, $9, $10)
     `;
 
-    for (const product of enrichedProducts) {
+    for (const product of seededProducts) {
       await pool.query(insertProductQuery, [
         product.name,
         product.description,
@@ -784,7 +1049,7 @@ const seedDatabase = async () => {
       ]);
     }
 
-    console.log(`✅ Database seeded successfully with ${enrichedProducts.length} products!`);
+    console.log(`✅ Database seeded successfully with ${seededProducts.length} products!`);
     process.exit();
   } catch (err) {
     console.error("❌ Error seeding DB:", err);
