@@ -2,9 +2,15 @@ const pool = require("../config/db");
 
 // ✅ PLACE ORDER
 exports.placeOrder = async (req, res) => {
-  const { address } = req.body;
+  const { address, paymentMethod } = req.body;
 
   try {
+    if (!address) {
+      return res.status(400).json({ message: "Address is required" });
+    }
+
+    const addressText = typeof address === "string" ? address : JSON.stringify(address);
+
     // 1. Get cart items
     const cartItems = await pool.query("SELECT * FROM cart");
 
@@ -27,7 +33,7 @@ exports.placeOrder = async (req, res) => {
     // 3. Create order
     const order = await pool.query(
       "INSERT INTO orders(address, total_amount) VALUES($1,$2) RETURNING id",
-      [address, total]
+      [`${addressText}\nPayment: ${paymentMethod || "COD"}`, total]
     );
 
     const orderId = order.rows[0].id;
